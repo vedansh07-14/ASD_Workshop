@@ -34,7 +34,7 @@ More importantly, it demonstrates **how to structure a real-world Express applic
 ## Project Structure
 
 ```
-express-cache-workshop/
+ASD_Workshop/
 │
 ├── src/
 │   ├── routes/
@@ -55,7 +55,10 @@ express-cache-workshop/
 │   ├── app.js                    ← Express app setup
 │   └── server.js                 ← starts the server
 │
+├── db.json               ← seed data (loaded at startup)
 ├── package.json
+├── package-lock.json
+├── .gitignore
 └── README.md
 ```
 
@@ -335,7 +338,6 @@ Cache invalidation happens **only after a successful database operation**. If th
 ### Install dependencies
 
 ```bash
-cd express-cache-workshop
 npm install
 ```
 
