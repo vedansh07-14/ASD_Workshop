@@ -1,0 +1,13 @@
+{
+  "name": "asd-workshop",
+  "version": "1.0.0",
+  "description": "ASD Workshop — Express Cache Demo",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev":   "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
